@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    border: 1px solid black;
+    width: 850px;
+    height: 80em;
+    margin: 80px auto;
+}
+
+.left-side {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 80em;
+    float: left;
+    color: whitesmoke;
+}
+
+/* Image */
+.left-side .image img {
+    width: 300px;
+}
+
+.left-side .name {
+    padding: 10px;
+    margin: 10px;
+}
+
+.left-side .details {
+    border-bottom: 3px solid white;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Details*/
+.left-side .details i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: cornflowerblue;
+    line-height: 30px;
+    text-align: center;
+}
+
+.left-side .details .address {
+    display: flex;
+    margin: 9px;
+}
+
+.left-side .details .contact {
+    display: flex;
+    margin: 20px 10px;
+}
+
+.left-side .details .email {
+    display: flex;
+    margin: 20px 10px;
+}
+
+.left-side .details .address p {
+    padding: 5px;
+}
+
+.left-side .details .email p {
+    padding-left: 10px;
+}
+
+.left-side .details .contact p {
+    padding: 8px;
+}
+
+/*Skill's*/
+.skills{
+    border-bottom: 3px solid whitesmoke;
+    padding: 10px;
+    margin:30px 10px;
+    height: 230px;
+}
+.html {
+    display: flex;
+    padding-top:20px;
+}
+.css{
+    display: flex;
+    padding-top:20px;
+}
+.js{
+    display: flex;
+    padding-top:20px;
+}
+.react{
+    display: flex;
+    padding-top:20px;   
+}
+
+.html progress{
+    margin-left: 10px;  
+}
+.css progress{
+    margin-left:23px;
+}
+.js progress{
+    margin-left: 32px;
+}
+
+.skills .per{
+    margin-left:11px ;
+}
+
+/* Social media */
+
+.social{
+    margin: 40px 10px;
+    padding: 10px;
+}
+
+
+
+.social .insta{
+    display: flex;
+    padding: 10px; 
+    height: 15px;   
+}
+
+
+.social .git{
+    display: flex;
+    padding: 10px;
+    height: 15px;   
+   
+}
+
+.social .link{
+    display: flex;
+    padding: 10px;
+    height: 15px;   
+    
+}
+
+.social .youtube{
+    display: flex;
+    padding: 10px;
+    height: 15px;   
+}
+.social .insta p{
+    margin: 5px 10px;
+}
+.social .git p{
+    margin: 5px 10px;
+}
+.social .link p{
+    margin: 5px 10px;
+}
+.social .youtube p{
+    margin: 5px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    margin-left:40px;
+}
+a p{
+    position: relative;
+    bottom: 10px;
+    width: 50%;
+    margin: 10px 50px;
+}
+.social i{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: slateblue;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/*Right-Side*/
+.right-side{
+    height: 80em;
+    width: 548px;
+    float: right;
+    color: slateblue;
+}
+
+.right-side .obj{
+    padding: 20px;
+    text-align: justify;
+    color: slateblue;
+    border-bottom: 1px solid;
+    width: 95%;
+    margin: 10px 10px 30px;
+}
+
+.right-side .obj p{
+    margin: 20px 10px;
+    color: black;
+}
+
+/* Work experience */
+
+.right-side .experience{
+    padding: 20px;
+    border-bottom: 1px solid slateblue;
+    width: 95%;
+    margin:30px 10px;
+}
+
+.right-side .experience h3{
+    color: black;
+    margin: 10px 20px 0px;
+}
+li{
+    padding: px;
+    margin:10px 0px 20px 50px;
+}
+.right-side .experience p{
+    margin: 5px 0px 20px 20%;
+}
+
+/* Education */
+.right-side .education{
+    border-bottom: 1px solid slateblue;
+    margin:30px 10px 0px ;
+    padding: 20px;
+}
+
+.right-side .education .year{
+    padding: 15px;
+    color: black;
+    margin: 15px;
+}
+.right-side .education .deg{
+    margin: 10px 0px 20px 60px;
+    color: black;
+}
+
+/*Hobby*/
+.right-side .hobby{
+    margin: 40px 20px;
+    padding: 20px;
+}
+
+.right-side .hobby i{
+    border: 1px solid;
+    padding: 25px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 70px 0px 40px 25px;
+}
